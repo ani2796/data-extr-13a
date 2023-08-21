@@ -1,0 +1,14 @@
+# Dependencies
+**/node_modules/
+
+# Compiled output
+**/dist/
+
+# Config files
+package-lock.json
+
+# Environment files
+.DS_Store
+
+# Assets
+assets/
