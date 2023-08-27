@@ -2,12 +2,14 @@
     "name": "data-extr",
     "version": "1.0.0",
     "description": "",
-    "main": "./src/main.js",
+    "main": "./dist/main.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "eslint-prettier-conflict": "npx eslint-config-prettier ./src/main.ts",
         "build": "rimraf ./dist && tsc",
-        "dev": "npm run build && node dist/main.js"
+        "dev": "npm run build && node dist/main.js",
+        "debug": "npm run build && node inspect dist/main.js"
     },
     "author": "AS",
     "license": "ISC",
@@ -20,5 +22,9 @@
         "prettier": "^3.0.2",
         "rimraf": "^5.0.1",
         "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "pdf.js": "^0.1.0",
+        "pdfjs-dist": "^3.9.179"
     }
 }

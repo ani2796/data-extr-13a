@@ -4,6 +4,7 @@
 -   ESLint
 -   TypeScript
 -   Nodemon
+-   PDF.js
 
 # Scripts
 
@@ -18,3 +19,7 @@ Creates new TS transpile build in `dist/`
 ## `npm run dev` ([guide](https://devimalplanet.com/how-to-build-and-run-typescript-watch-mode#1-using-tsc--w-and-nodemon))
 
 TS transpile and run
+
+## `npm run debug`
+
+TS transpile and run Node.js debugger (`node inspect`)
