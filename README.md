@@ -1,3 +1,24 @@
+# Project Objective
+
+Games such as DnD can be difficult for beginners to follow, but with the ability to train LLM models to be information sleuths, we can
+create a bot that answers any question about the game, ideally with perfect accuracy.
+
+Project outline: 
+- Extract DnD (13th age) information and train an open source LLM to answer questions from the book after training it based on the JSON extracted data.
+
+# Project Learnings
+
+- LangChain.js (interface with Llama model)
+- Basic NLP techniques (input transforms)
+- PDF extraction
+
+# Looking ahead
+
+- UI for uploading PDF files
+- Tabular and list data manipulation (games like DnD have creative rule expression too)
+- Compare model performance for tabletop game rulebooks
+- Try other DnD variants, see which tabletop game is the easiest to explain to new players
+
 # Dev Setup
 
 -   Prettier
@@ -23,3 +44,5 @@ TS transpile and run
 ## `npm run debug`
 
 TS transpile and run Node.js debugger (`node inspect`)
+
+

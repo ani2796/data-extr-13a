@@ -1,8 +1,8 @@
-import { getPDFPagesAsStrings } from "./pdf-interface.js";
+import { continuousOnlinePrompt } from "./hf-llm.js";
+import "./local-llm.js";
 
-async function main() {
-    const pages = await getPDFPagesAsStrings("./../assets/bard-spells.pdf");
-    console.log(pages);
+function main() {
+    continuousOnlinePrompt();
 }
 
 main();
